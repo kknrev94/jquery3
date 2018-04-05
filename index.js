@@ -1,0 +1,22 @@
+$(document).ready(()=>{
+	$('input').click(()=>{
+		$('dialog').show()
+	});
+	$("#closebutton").click(()=>{
+		$("dialog").hide()
+	});
+	$("#x").click(()=>{
+		$("dialog").hide()
+	});
+	$(".heading").hover(function(){
+		$(".heading").addClass("heading1")
+		$(".heading").fadeOut(100)
+		$(".heading").fadeIn(100)	
+	})
+	$("p").hover(function(){
+		$(".heading").removeClass("heading1")
+	})
+	$(".align").hover(function(){
+		$(".heading").removeClass("heading1")
+	})
+})

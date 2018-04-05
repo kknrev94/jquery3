@@ -1,0 +1,58 @@
+.border{
+	direction: flex;
+	flex-direction: wrap;
+	height: 30vh;
+	width: 30vw;
+	text-align: center;
+	border-style: outset;
+	background-color: #f3eedf;
+}
+.heading{
+
+	color:black;
+	text-align: left;
+	font-size: 30px;
+	padding-right: 50px;
+}
+.heading1{
+	color:green;
+}
+.align{
+	text-align: right;
+}
+#x{
+	float: right;
+}
+#closebutton{
+	background-color: #808080;
+}
+#saveChangesbutton{
+	background-color:#00BFFF;
+}
+@media screen and (min-width: 768px){
+	.border{
+		height: 45vh;
+		width: 30vw;
+		text-align: center;
+		border-style: outset;
+		background-color: #ddd;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+	.border{
+		height: 60vh;
+		width: 30vw;
+		text-align: center;
+		border-style: outset;
+		background-color: #ddd;
+	}
+}
+@media screen and (max-width: 480px){
+	.border{
+		height: 80vh;
+		width: 30vw;
+		text-align: center;
+		border-style: outset;
+		background-color: #ddd;
+	}
+}
